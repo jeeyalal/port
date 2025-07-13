@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Harsh Mishra</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> -->
+    <script>
+        function closet() {
+            document.querySelector('#fscr').style.left = '-110%';
+        }
+
+        function opent() {
+            document.querySelector('#fscr').style.left = '0%';
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <div id="fscr">
+        <i onclick="closet()" class="ri-close-line"></i>
+        <a onclick="closet()" href="#">Home</a>
+        <a onclick="closet()" href="#skills">Skills</a>
+        <a onclick="closet()" href="#work">Work Samples</a>
+        <a onclick="closet()" href="#collab">Let's Collab</a>
+        <a onclick="closet()" target="_blank" href="https://github.com/jeeyalal"><img
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> See
+            Github</a>
+    </div>
+
+    <div class="blr" id="blrone"></div>
+    <div class="blr" id="blrtwo"></div>
+    <nav>
+        <h3><span class="bold">Harsh</span> Mishra</h3>
+        <div id="links">
+            <a href="#">Home</a>
+            <a target="" href="#work">Work Samples</a>
+            <a target="" href="#collab">Contact</a>
+            <a href="./resumeWeb.pdf" download>Download Resume</a>
+            <a target="_blank" href="https://github.com/jeeyalal"><img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> See
+                Github</a>
+        </div>
+        <a onclick="opent()" href="#">
+            <i class="ri-menu-2-line"></i> Menu
+        </a>
+    </nav>
+    <div id="main">
+        <!-- <nav>
+            <h3><span class="bold">Harsh</span> Mishra</h3>
+            <div id="links">
+                <a href="#">Home</a>
+                <a target="" href="#work">Work Samples</a>
+                <a target="" href="#collab">Contact</a>
+                <a href="./resumeWeb.pdf" download>Download Resume</a>
+                <a target="_blank" href="https://github.com/jeeyalal"><img
+                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> See
+                    Github</a>
+            </div>
+            <a onclick="opent()" href="#">
+                <i class="ri-menu-2-line"></i> Menu
+            </a>
+        </nav> -->
+        <div id="mainpart">
+            <div class="badge-container">
+                <button class="badge design">
+                    Design <span class="emoji">🎨</span>
+                </button>
+                <button class="badge code">
+                    <span class="emoji">💻</span> Code
+                </button>
+            </div>
+
+
+            <h1>I love to build <br><span class="crsv">"interactive"</span> web experiences.</h1>
+            <p>I am a Front-End Web Developer from Mumbai, Maharashtra. I specialize in crafting responsive and visually
+                engaging websites.<br>
+                With a keen eye for design and a strong grip on modern web technologies, I strive to deliver seamless
+                user experiences that leave an impact.</p>
+
+            <div class="custom-buttons">
+                <a class="btn hi" href="#collab">
+                    Say Hi 👋
+                </a>
+                <a class="btn resume" href="./resumeWeb.pdf" download>
+                    Download Offline Resume 🧾
+                </a>
+            </div>
+
+
+            <img id="mainimg" src="./images/maimimg.png" alt="">
+        </div>
+    </div>
+
+    <div id="taskcatg">
+        <div class="ctg">
+            <div class="ctg-content">
+
+                <h3 class="title" style="color:#48C7F0">2D</h3>
+                <p>Graphic Design | UI/UX | Adobe Suite</p>
+            </div>
+        </div>
+        <div class="ctg">
+            <div class="ctg-content">
+
+                <h3 class="title" style="color:#5AC28F">3D</h3>
+                <p>Basic 3D Concepts<br>(Learning phase)</p>
+            </div>
+        </div>
+        <div class="ctg">
+            <div class="ctg-content">
+                <h3 class="title" style="color:#FF75A0">Frontend Development</h3>
+                <p>
+                    I specialize in creating user-focused, responsive web interfaces that are both elegant and
+                    functional.
+                    Passionate about seamless user experiences and high-performance UI architecture.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="work">
+        <h4>
+            <div class="line"></div> What I do
+        </h4>
+        <h1>Work Samples</h1>
+
+        <div id="projects">
+            <div class="project-card">
+                <img src="./images/flavour.png" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Flavor-forge</h3>
+                    <p>FlavorForge is a dynamic web application designed for food enthusiasts to discover, manage, and
+                        personalize their favorite recipes</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/FlavorForge-/tree/main" target="_blank">GitHub</a>
+                    <a href="https://flavor-forge-eight.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <!-- Repeat .project-card for other projects -->
+            <div class="project-card">
+                <img src="./images/log.png" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Eduloom</h3>
+                    <p>This project simulates a full-featured e-learning marketplace using mock data and modern React
+                        tooling</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/EDULOOM" target="_blank">GitHub</a>
+                    <a href="https://eduloom.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/fintrack.png" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Fin Track</h3>
+                    <p>FinTrack is a simple yet powerful web application for tracking personal income and expenses.
+                        It allows users to add income and expense entries with amount, category, and description.</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/FINTRACK" target="_blank">GitHub</a>
+                    <a href="https://fintrack-kohl-nine.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/nova.jpeg" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Nove-Games</h3>
+                    <p>Nove Game, interactive visual nove built using React and GSAP for rich animations and smooth storytelling transitions.</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/Nove-game" target="_blank">GitHub</a>
+                    <a href="https://nove-game.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/beer.jpeg" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Lagunitas</h3>
+                    <p>The project focuses on delivering smooth, modern animations and scroll-based effects using GSAP's.</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/Lagunitas" target="_blank">GitHub</a>
+                    <a href="https://lagunitas-alpha.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/pixel.png" alt="Project 1" />
+                <div class="project-content">
+                    <h3>pixcel-perfcet</h3>
+                    <p>Pixel Perfect is an AI-powered image enhancement web app built using React.
+It allows users to upload low-quality or blurry images and instantly enhance them with the help of AI</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/pixcel-perfcet" target="_blank">GitHub</a>
+                    <a href="https://pixcel-perfcet.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/github.jpeg" alt="Project 1" />
+                <div class="project-content">
+                    <h3>Github-Acoount-Finder</h3>
+                    <p>GitHub Account Finder is a simple React app where users can enter a GitHub username and instantly view that user’s profile details.</p>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/jeeyalal/Github_Acoount_finder" target="_blank">GitHub</a>
+                    <a href="https://github-acoount-finder.vercel.app/" target="_blank">Live Site</a>
+                </div>
+            </div>
+
+            <!--  -->
+        </div>
+    </div>
+
+
+
+
+
+    <div id="skills">
+        <h3>
+            <div class="line"></div> what I am good at
+        </h3>
+        <h1>Skills and Interests</h1>
+        <div class="well">
+
+            <img src="images/html.png" alt="">
+            <img src="images/css.png" alt="">
+            <img src="images/js.png" alt="">
+            <img src="images/tailwind.png" alt="">
+            <img src="images/react.png" alt="">
+            <img src="images/python.png" alt="">
+            <img src="images/redux.png" alt="" srcset="">
+            <img src="images/gsap.png" alt="">
+            <img src="images/github.png" alt="">
+            <img src="images/c.png" alt="">
+            <img src="images/scss.png" alt="">
+            <img src="images/data.png" alt="">
+        </div>
+    </div>
+
+    <!-- <div id="about">
+        <h4>Not so</h4>
+        <h1>Boring</h1>
+        <h4>about me section <img src="./images/msgLogo0001.png"></h4>
+        <div id="videocontainer">
+            <video id="videoabt" src="./video.mp4"></video>
+            <div id="vidoverlay">
+                <i class="ri-play-circle-fill"></i>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="collab">
+        <h4>Let’s</h4>
+        <h1>Collaborate</h1>
+        <h4>and create something amazing <i class="ri-chat-3-line"></i></h4>
+
+        <div id="formcontainer">
+            <form action="https://api.web3forms.com/submit" method="POST" reset(); id="contact-form">
+                <input type="hidden" name="access_key" value="1d6926e9-cfd4-4859-a2e6-4cc8a7c685c7">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="textarea" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        created with <i class="ri-heart-3-line"></i> by harsh
+    </div>
+
+
+
+
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+
+    <script>
+        var a = false
+        document.querySelector('#vidoverlay').addEventListener('click', function () {
+            if (a) {
+                this.style.opacity = 1;
+                document.querySelector('#videoabt').pause();
+                a = false;
+            }
+            else {
+                this.style.opacity = 0;
+                document.querySelector('#videoabt').play();
+                a = true;
+            }
+        })
+        document.querySelector('#videoabt').addEventListener('ended', function () {
+            document.querySelector('#vidoverlay').style.opacity = 1;
+            document.querySelector('#videoabt').pause();
+            document.querySelector('#videoabt').currentTime = 0;
+            a = false;
+        })
+
+    </script>
+
+</body>
+
+</html>
