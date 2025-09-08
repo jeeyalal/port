@@ -403,6 +403,21 @@ nav #links a:last-child {
     background-color: #fff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.project-tech {
+  margin: 3px 0px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-tech span {
+  background: #f4f4f4;
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 
 .project-card:hover {
     transform: translateY(-5px);
